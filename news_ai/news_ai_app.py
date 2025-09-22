@@ -3,7 +3,7 @@ import feedparser
 import openai
 
 # 🔑 Your OpenAI API key
-openai.api_key = "your oenai key"
+openai.api_key = "your openai key"
 
 # Example news feeds
 RSS_FEEDS = [
@@ -45,3 +45,4 @@ if st.button("Fetch Latest News"):
         with st.spinner("Summarizing..."):
             st.info(summarize(n["summary"]))
         st.markdown("---")
+

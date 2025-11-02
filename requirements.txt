@@ -1,0 +1,7 @@
+pathway>=0.8.0
+feedparser
+requests
+fastapi
+uvicorn
+python-dotenv
+openai
